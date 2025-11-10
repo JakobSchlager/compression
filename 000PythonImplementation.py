@@ -41,7 +41,7 @@ def segmentSignal(s):
       if insideThreshold:
         phiPrime = 0
         n = int(nPrime + np.ceil(d * T))
-        nSet.append(n)
+        nSet.append(nPrime)
       insideThreshold = False
     n += 1
   return nSet
